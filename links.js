@@ -67,6 +67,11 @@ hA = headingArray2;
 sA = subCatArray2;
 i = 0; 
 
+hA[i] = "Computer Stores";
+sA[i] = new Array();
+sA[i].push(new Array("CanadaComputers", "http://www.canadacomputers.com/"));
+i++;  
+
 hA[i] = "E-mail Sites";
 sA[i] = new Array();
 sA[i].push(new Array("GMail", "http://www.gmail.com/"));
@@ -75,8 +80,8 @@ i++
       
 hA[i] = "Misc";
 sA[i] = new Array();
-sA[i].push(new Array("Freedom Mobile", "https://www.freedommobile.ca/));
-sA[i].push(new Array("Rogers", "https://www.rogers.com/"));
+sA[i].push(new Array("Koodo", "https://www.koodomobile.com/my-account/overview?INTCMP=KMNew_NavMenu_SelfServe"));
+sA[i].push(new Array("Public Mobile", "https://selfserve.publicmobile.ca"));
 i++;
 
 hA[i] = "Financial Stuff";
@@ -85,10 +90,9 @@ sA[i].push(new Array("CanadianTire Mastercard", "https://www.ctfs.com/MyOnlineAc
 sA[i].push(new Array("Globeinvestor", "http://www.globeinvestor.com/"));
 sA[i].push(new Array("Paypal", "http://www.paypal.com/"));
 sA[i].push(new Array("PC Optimum", "https://www.pcoptimum.ca"));
-sA[i].push(new Array("Questtrade", "https://www.questrade.com"));
+sA[i].push(new Array("Scotiabank", "http://www.scotiabank.com"));
+sA[i].push(new Array("Sunlife", "http://www.sunlife.ca/member/"));
 sA[i].push(new Array("TD EasyWeb", "https://easyweb.td.com"));
-sA[i].push(new Array("Wealthsimple", "https://www.wealthsimple.com/en-ca"));
-
 i++;
 
 
@@ -114,8 +118,14 @@ hA = headingArray3;
 sA = subCatArray3;
 i = 0; 
 
+hA[i] = "Funny Stuff";
+sA[i] = new Array();
+sA[i].push(new Array("Urban Dictionary", "http://www.urbandictionary.com/"));
+i++;  
+
 hA[i] = "Multimedia Sites";
 sA[i] = new Array();
+sA[i].push(new Array("Google Videos", "http://video.google.ca/"));
 sA[i].push(new Array("YouTube", "http://www.youtube.com/"));
 
 i++;  
