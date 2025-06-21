@@ -8,18 +8,14 @@ i = 0;
 
 hA[i] = "Entertainment";
 sA[i] = new Array();
-sA[i].push(new Array("Billboard.com", "http://www.billboard.com/"));
 sA[i].push(new Array("Netflix", "https://www.netflix.com/ca/"));
-sA[i].push(new Array("Rogers Anyplace", "http://www.rogersondemand.com/"));
 
 i++;
 
 hA[i] = "Movie Stuff";
 sA[i] = new Array();
 sA[i].push(new Array("IMDB.com", "http://www.imdb.com"));
-sA[i].push(new Array("movies.com", "http://www.movies.com"));
 sA[i].push(new Array("rottentomatoes.com", "http://www.rottentomatoes.com/"));
-sA[i].push(new Array("Yahoo Movies", "http://movies.yahoo.com/"));
 i++;
 
 hA[i] = "News";
@@ -37,7 +33,7 @@ sA[i].push(new Array("amazon.ca", "http://www.amazon.ca"));
 sA[i].push(new Array("canadiantire.ca", "http://www.canadiantire.ca"));
 sA[i].push(new Array("eBay.ca", "http://www.ebay.ca"));
 sA[i].push(new Array("kijiji Toronto", "http://toronto.kijiji.ca/"));
-sA[i].push(new Array("redflagdeals.com", "http://www.redflagdeals.com"));
+sA[i].push(new Array("redflagdeals.com", "https://forums.redflagdeals.com/hot-deals-f9/"));
 sA[i].push(new Array("Staples", "http://www.staples.ca"));
 i++;
 
@@ -45,7 +41,6 @@ hA[i] = "Gift Cards";
 sA[i] = new Array();
 sA[i].push(new Array("Cardswap", "http://www.cardswap.ca"));
 sA[i].push(new Array("Ebates Gift Cards", "https://www.ebatesgiftcards.ca/"));
-sA[i].push(new Array("Gift Cards Wild", "http://www.giftcardswild.com/"));
 i++ 
 
 hA[i] = "Sports";
@@ -89,8 +84,6 @@ sA[i].push(new Array("CanadianTire Mastercard", "https://www.ctfs.com/MyOnlineAc
 sA[i].push(new Array("Globeinvestor", "http://www.globeinvestor.com/"));
 sA[i].push(new Array("Paypal", "http://www.paypal.com/"));
 sA[i].push(new Array("PC Optimum", "https://www.pcoptimum.ca"));
-sA[i].push(new Array("Scotiabank", "http://www.scotiabank.com"));
-sA[i].push(new Array("Sunlife", "http://www.sunlife.ca/member/"));
 sA[i].push(new Array("TD EasyWeb", "https://easyweb.td.com"));
 i++;
 
