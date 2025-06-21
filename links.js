@@ -80,8 +80,7 @@ i++
       
 hA[i] = "Misc";
 sA[i] = new Array();
-sA[i].push(new Array("Koodo", "https://www.koodomobile.com/my-account/overview?INTCMP=KMNew_NavMenu_SelfServe"));
-sA[i].push(new Array("Public Mobile", "https://selfserve.publicmobile.ca"));
+sA[i].push(new Array("Freedom Mobile", "https://www.freedommobile.ca/"));
 i++;
 
 hA[i] = "Financial Stuff";
